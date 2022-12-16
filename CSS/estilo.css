@@ -1,0 +1,167 @@
+/* Usado para importar regras de estilo de outras folhas de estilo. */
+@import"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap";
+
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: “Source Sans Pro”, sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+.cabecalho-imagem1 {
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+    justify-content: left;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho-menu-botao {
+    padding: 5px 30px;
+    border-radius: 10px;
+    background: green;
+    color: #fff;
+}
+.conteudo {
+    border-top: 0.4px solid green;
+    width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+header section {
+    justify-content: space-between;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header nav a {
+    margin: 0px 15px;
+    color: #39c;
+}
+    
+.sobre {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre article h1 {
+    font-size: 40px;
+    line-height: 90%;
+    font-weight: 400;
+    color: green;
+}
+.sobre article p {
+    color: green;
+    margin: 10px 0 40px;
+    width: 400px;
+}
+
+article h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+figcaption img {
+    width: 500px;
+}
+ 
+footer ul li {
+    margin: 0 30px 0 0;
+}
+ 
+footer ul li a img {
+    width: 30px;
+}
+
+/* Itens do formulário */
+fieldset {
+    width: 60%;
+    padding: 10px 0 20px;
+    margin-left: 10px;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    padding: 20px;
+}
+legend h5 {
+    display: flex;
+    padding: 5px;
+    font-style: inh;
+}
+.caixa-estado {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: px;
+}
+.caixa-estado:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+}
+
+.entrada {
+    font-family: inherit;
+    line-height: 1.15;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.entrada:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+}
+
+.entrada-mensagem {
+    font-family: inherit;
+    line-height: 1.15;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    padding-bottom: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.entrada-mensagem:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+}
+
+.rotulo {
+    padding-bottom: 2.5px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.botaoEnviar {
+    padding-top: 10px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    background: green;
+    color: #fff;
+    box-shadow: 0px 1px 0 0.2rem rgba(95, 112, 118, 0.5);
+}
